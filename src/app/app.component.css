@@ -1,8 +1,0 @@
-#profile{
-    background-color: white;
-    transition: transform .3s;
-}
-
-#profile:hover{
-    transform: scale(1.01);
-}
