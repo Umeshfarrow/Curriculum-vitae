@@ -1,13 +1,19 @@
-<div class="container-sm my-2 py-5">
-    
-    <!-- <app-portfolio></app-portfolio> -->
-    <!-- <app-journey></app-journey> -->
-    <router-outlet></router-outlet>
-    <div class="">
-        <footer class="footer align-bottom">
-            <div class="text-center font-weight-bold" style="font-family: Droid Sans;">
-                &copy;<i>The Company (Umeshfarrow)</i>
-            </div>
-        </footer>
+<div class="container-sm py-1">
+    <div class="my-5 px-4">
+        <a href="#" routerLinkActive="active" routerLink="portfolio" class="mx-2">Home</a>
+        <a href="#" routerLinkActive="active" routerLink="education" class="mx-2">Education</a>
+        <a href="#" routerLinkActive="active" routerLink="education/journey" class="mx-2">Journey</a>
     </div>
+    <div class="container py-2 my-2 shadow rounded">
+        <!-- <app-portfolio></app-portfolio> -->
+        <!-- <app-journey></app-journey> -->
+        <router-outlet></router-outlet>
+    </div>
+        <div class="">
+            <footer class="footer align-bottom">
+                <div class="text-center font-weight-bold" style="font-family: Droid Sans;">
+                    &copy;<i>The Company (Umeshfarrow)</i>
+                </div>
+            </footer>
+        </div>
 </div>

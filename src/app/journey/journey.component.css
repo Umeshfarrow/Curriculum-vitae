@@ -1,13 +1,16 @@
 a{
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
 }
 p{
     padding: 5px;
 }
-h5{
+/* h5{
     color:dodgerblue;
-}
-h3{
+} */
+/* h3{
     color: teal;
-}
+} */
+/* .card{
+    background-color: darkcyan;
+} */
